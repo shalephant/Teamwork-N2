@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Istok+Web:wght@700&display=swap');
 
-.packages {
+section {
     margin-top: 106px;
     margin-left: 171px;
 }
 
-.packages-name {
+.name {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 600;
@@ -16,7 +16,7 @@
     color: #0A7777;
 }
 
-.packages-description {
+.description {
     font-family: 'Istok Web';
     font-style: normal;
     font-weight: 700;
@@ -25,11 +25,11 @@
     display: flex;
     align-items: center;
     color: #000000;
-    width: 500px;
+    width: 600px;
     height: 200px;
 }
 
-.cards-block {
+.tour-cards-block {
     display: flex;
     gap: 30px;
 }
@@ -95,4 +95,8 @@
     background-color: #D9D9D9;
     border-radius: 50%;
     display: inline-block;
+  }
+
+  .test-card-block {
+    
   }
