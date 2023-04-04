@@ -98,5 +98,32 @@ section {
   }
 
   .test-card-block {
-    
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+  }
+
+  .test-card {
+    width: 245px;
+    border-radius: 35px;
+    position: relative;
+    text-align: center;
+  }
+
+  .tour-front {
+    position: absolute;
+    display: block;
+    top: 
+    38.58px;
+    left: 65.44px;
+  }
+
+  .test-name {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    color: #000000;
+    margin-top: 63px;
   }
