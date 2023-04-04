@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Istok+Web:wght@700&display=swap');
+
 .packages {
     margin-top: 106px;
     margin-left: 171px;
@@ -33,12 +35,50 @@
 }
 
 .packages-card {
-    background-color: rgba(217, 217, 217, 0.47);
+    background-color: rgba(217, 217, 217, 0.47) ;
     border-radius: 13px;
     padding-left: 23.13px;
     padding-top: 19.01px;
     padding-right: 25.44px;
     padding-bottom: 25.77px;
+    box-shadow: 2px 2px rgba(127, 127, 127, 0.22);
+}
+
+.card-img {
+    border-radius: 0px;
+}
+.card-name {
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;   
+    color: #000000;    
+}
+
+.card-price {
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;   
+    color: #0A7777;
+}
+
+.card-days {
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #A8A8A8;
+    margin-left: 130px;
 }
 
 .circles {
