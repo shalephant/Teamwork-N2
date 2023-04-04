@@ -42,6 +42,7 @@ section {
     padding-right: 25.44px;
     padding-bottom: 25.77px;
     box-shadow: 2px 2px rgba(127, 127, 127, 0.22);
+    
 }
 
 .card-img {
@@ -100,7 +101,9 @@ section {
   .test-card-block {
     display: flex;
     justify-content: center;
+    position: relative;
     gap: 16px;
+    margin-left: 241px;
   }
 
   .test-card {
@@ -108,6 +111,8 @@ section {
     border-radius: 35px;
     position: relative;
     text-align: center;
+    box-shadow: 2px 2px rgba(127, 127, 127, 0.22);
+    
   }
 
   .tour-front {
@@ -126,4 +131,21 @@ section {
     line-height: 44px;
     color: #000000;
     margin-top: 63px;
+  }
+
+  .test-text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 16px;
+  }
+
+  .star {
+    margin-bottom: 19px;
   }
