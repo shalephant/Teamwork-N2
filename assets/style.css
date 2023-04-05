@@ -9,7 +9,7 @@
     position: absolute;
     width: 620px;
     height: 130px;
-    left: 350px;
+    left: 380px;
     top: 76px;
 }
 
@@ -34,7 +34,7 @@
     position: absolute;
     width: 731px;
     height: 70px;
-    left: 410px;
+    left: 430px;
     top: 206px;
 }
 
@@ -119,3 +119,217 @@
 .palace {
     margin-left: 80px;
 }
+
+.about_company {
+    position: absolute;
+    width: fit-content;
+    height: 443px;
+    left: 0px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    top: 850px;
+    gap: 30px;
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.About {
+    width: 80px;
+    height: 300px;
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    margin-bottom: 70px;
+}
+
+.about {
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.plans {
+    margin-top: 50px;
+}
+
+.news {
+    margin-top: 17px;
+}
+
+.features {
+    margin-top: 30px;
+}
+
+.about_us {
+    margin-top: 30px;
+    width: 100px;
+}
+
+.Company {
+    width: 80px;
+    height: 300px;
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-bottom: 70px;
+}
+
+.company {
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.travel {
+    margin-top: 50px;
+}
+
+.partners {
+    margin-top: 17px;
+}
+
+.faqs {
+    margin-top: 30px;
+}
+
+.blogs {
+    margin-top: 30px;
+}
+
+.Customer_support {
+    width: 80px;
+    height: 300px;
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-bottom: 70px;
+}
+
+.support {
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.supp {
+    margin-top: 50px;
+}
+
+.feedback {
+    margin-top: 17px;
+}
+
+.contact {
+    margin-top: 30px;
+    width: 120px;
+}
+
+.account {
+    margin-top: 30px;
+}
+
+.Newsletter {
+    width: 80px;
+    height: 300px;
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-bottom: 70px;
+}
+
+.newsletter {
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.subscribe {
+    margin-top: 50px;
+    width: 270px;
+    height: 63px;
+    left: 771px;
+    top: 139px;
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+}
+
+.Travelli {
+    width: 80px;
+    height: 300px;
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-bottom: 70px;
+}
+
+.traveli {
+    position: absolute;
+    width: 170px;
+    height: 26px;
+    left: 1171px;
+    top: 100px;
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 53px;
+    display: flex;
+    align-items: center;
+    color: #0A7777;
+}
+
+.icons {
+    margin-top: 150px;
+    margin-left: 60px;
+}
+
+.face_goog {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.facebook {
+    margin-left: 10px;
+}
+.google {
+    margin-left: 50px;
+}
+
