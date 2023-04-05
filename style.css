@@ -1,4 +1,341 @@
 
+.achievements {
+    position: absolute;
+    width: fit-content;
+    height: 982px;
+    background: #FFFFFF;
+}
+
+.persist {
+    position: absolute;
+    width: 620px;
+    height: 130px;
+    left: 380px;
+    top: 76px;
+}
+
+.heading {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    font-family: "Istok Web";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 69px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.do_best {
+    position: absolute;
+    width: 731px;
+    height: 70px;
+    left: 430px;
+    top: 206px;
+}
+
+.quote {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    font-family: "Istok Web";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.gallery {
+    width: fit-content;
+    height: auto;
+    margin-top: 290px;
+    margin-bottom: 185px;
+    display: flex;
+    flex-direction: row;
+}
+.gallery seaside {
+    position: absolute;
+    width: 271px;
+    height: 311px;
+    left: 70px;
+    top: 292px;
+}
+
+.all_tours {
+    display: flex;
+    flex-direction: column;
+    width: 620px;
+    height: fit-content;
+    margin-right: 100px;
+}
+
+.nav_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+    gap: 10px;
+    width: 227px;
+    height: 50px;
+    background: #0A7777;
+    border-radius: 9px;
+    margin-left: 270px;
+    margin-top: 15px;
+}
+
+.nav_button h3{
+    width: 213px;
+    height: 44px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 50px;
+}
+
+.tour_images {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-left: 60px;
+}
+
+.palace {
+    margin-left: 80px;
+}
+
+.about_company {
+    position: absolute;
+    width: fit-content;
+    height: 443px;
+    left: 0px;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    top: 850px;
+    gap: 30px;
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.About {
+    width: 80px;
+    height: 300px;
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    margin-bottom: 70px;
+}
+
+.about {
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.plans {
+    margin-top: 50px;
+}
+
+.news {
+    margin-top: 17px;
+}
+
+.features {
+    margin-top: 30px;
+}
+
+.about_us {
+    margin-top: 30px;
+    width: 100px;
+}
+
+.Company {
+    width: 80px;
+    height: 300px;
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-bottom: 70px;
+}
+
+.company {
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.travel {
+    margin-top: 50px;
+}
+
+.partners {
+    margin-top: 17px;
+}
+
+.faqs {
+    margin-top: 30px;
+}
+
+.blogs {
+    margin-top: 30px;
+}
+
+.Customer_support {
+    width: 80px;
+    height: 300px;
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-bottom: 70px;
+}
+
+.support {
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.supp {
+    margin-top: 50px;
+}
+
+.feedback {
+    margin-top: 17px;
+}
+
+.contact {
+    margin-top: 30px;
+    width: 120px;
+}
+
+.account {
+    margin-top: 30px;
+}
+
+.Newsletter {
+    width: 80px;
+    height: 300px;
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-bottom: 70px;
+}
+
+.newsletter {
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.subscribe {
+    margin-top: 50px;
+    width: 270px;
+    height: 63px;
+    left: 771px;
+    top: 139px;
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+}
+
+.Travelli {
+    width: 80px;
+    height: 300px;
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 150px;
+    margin-bottom: 70px;
+}
+
+.traveli {
+    position: absolute;
+    width: 170px;
+    height: 26px;
+    left: 1171px;
+    top: 100px;
+    font-family: 'Istok Web';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 53px;
+    display: flex;
+    align-items: center;
+    color: #0A7777;
+}
+
+.icons {
+    margin-top: 150px;
+    margin-left: 60px;
+}
+
+.face_goog {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.facebook {
+    margin-left: 10px;
+}
+.google {
+    margin-left: 50px;
+}
+
+=======
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Istok+Web:wght@700&display=swap');
 body {
   overflow-x: hidden ;
@@ -67,12 +404,6 @@ section {
 }
 
 .card-price {
-    font-family: 'Istok Web';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 35px;
-    display: flex;
     align-items: center;   
     color: #0A7777;
 }
@@ -159,7 +490,8 @@ section {
   .star {
     margin-bottom: 19px;
   }
-=======
+  
+  
 *{
     box-sizing: border-box;
     margin: 0;
