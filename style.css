@@ -60,6 +60,33 @@ background: #0A7777;
 border-radius: 9px;
 }
 
+
+@media screen and (max-width:500px) {
+    .header{
+        flex-direction: column;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        gap: 10px;
+        display: list-item;
+        height: 420px;
+        list-style: none;        
+    }
+    .nav a{
+        column-gap: 1px;
+        display: list-item;
+        font-size: 18px;
+        color:#f157c0;
+    }
+
+    .sign-up a {
+        font-size: 22px;
+        line-height: 24px;
+        color: #FFFFFF;
+        background: #b4dd0f;
+    }
+}
+
 /* Header ends here */
 
 /* Section 1 starts here */
@@ -136,6 +163,48 @@ h1 {
     line-height: 15px;
     color: #000000;
 }
+
+@media screen and (max-width:500px) {
+    .article-live-the-life {
+        flex-direction: column;
+    }
+    .article-info h1 {
+        width: fit-content;
+        font-size: 35px;
+        line-height: 49px;
+        font-weight: 700;
+        color: #b4dd0f;
+        margin-right: 60px;}
+
+    .life-is-short {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 25px;
+        color: #f157c0;
+        margin-right: 60px;
+    }
+
+    .date-and-location {
+        width: fit-content;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-right: 60px;
+    }
+
+    .date {
+        color: #0A7777;
+    }
+
+    .location {
+        color: #0A7777;
+    }
+
+    .girl-with-a-backpack {
+        padding-left: 190px;
+        padding-top: 0%;
+    }
+}
+
 /* Section 1 ends here */
 
 /* Section 2 starts here */
@@ -239,4 +308,52 @@ h1 {
         padding-top: 30px;
     }
 
+    @media screen and (max-width:500px) {
+
+    .article-about-us { 
+        flex-direction: column;
+    } 
+
+    .parent {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .image2 {
+        position: absolute;
+        top: 406px;
+        left: 200px;
+    }
+
+    .itinerary {
+        width: fit-content;
+        padding-bottom: 350px;
+        font-size: 38px;
+        line-height: 69px;
+        color: #f157c0;
+        height: 150px;
+    }
+
+    .paragraph {
+        width: fit-content;
+        padding-bottom: 250px;
+        color:#0A7777;
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .result {
+        flex-direction: column;
+    }
+
+    span {
+        color: #b4dd0f;
+        padding-bottom: 10px;
+    }
+
+    .amount {
+        padding-bottom: 10px;
+    }
+
+    }
     /* Section 2 ends here */
