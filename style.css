@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Istok+Web:wght@700&display=swap');
-
+body {
+  overflow-x: hidden ;
+}
 section {
     margin-top: 106px;
     margin-left: 171px;
@@ -41,8 +43,12 @@ section {
     padding-top: 19.01px;
     padding-right: 25.44px;
     padding-bottom: 25.77px;
-    box-shadow: 2px 2px rgba(127, 127, 127, 0.22);
-    
+    box-shadow: 2px 2px rgba(127, 127, 127, 0.22);   
+}
+
+.last.packages-card {
+    width: 117px;
+    padding-right: 0px;
 }
 
 .card-img {
@@ -90,6 +96,10 @@ section {
     margin-bottom: 76px;
 }
 
+.first.dot {
+  background-color: #0A7777;
+}
+
 .dot {
     height: 20px;
     width: 20px;
@@ -98,12 +108,11 @@ section {
     display: inline-block;
   }
 
-  .test-card-block {
+  .test-cards-block {
     display: flex;
     justify-content: center;
     position: relative;
     gap: 16px;
-    margin-left: 241px;
   }
 
   .test-card {
@@ -115,7 +124,7 @@ section {
     
   }
 
-  .tour-front {
+  .test-front {
     position: absolute;
     display: block;
     top: 
