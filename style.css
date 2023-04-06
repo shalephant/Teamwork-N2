@@ -338,6 +338,7 @@ section {
     margin-left: 171px;
 }
 
+
 .name {
     font-family: 'Inter';
     font-style: normal;
@@ -442,6 +443,93 @@ section {
     border-radius: 50%;
     display: inline-block;
   }
+
+  @media screen and (max-width:500px) {
+
+    .dot {
+        display: none;
+    }
+    .test-cards-block{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .tour-cards-block{
+        display: flex;
+        flex-wrap: wrap;
+        width: fit-content;
+
+    }
+    .last.packages-card {
+        display: none;
+    }
+    .tour-cards {
+        width: fit-content;
+    }
+    .description {
+        width: fit-content;
+    }
+    
+    section {
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .gallery {
+        display: none;
+    }
+    .about_company {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 150px;
+        gap: 0px;
+    }
+    .About {
+        margin-left: 0px;
+    }
+    .Company {
+        
+        margin-left: 0px;
+    }
+    .Customer_support {
+        margin-left: 0px;
+    }
+    .Newsletter {
+        margin-left: 0px;
+        display: none;
+    }
+    
+    
+    .Travelli {
+        margin-top: 0px;
+        margin-left: 0px;
+
+    }
+    .traveli{
+        display: none;
+    }
+    .icons {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    .testimonials {
+        margin-bottom: 120px;
+    }
+
+    .achievements-text {
+        text-align: center;
+    }
+    .persist {
+        left: 0px;
+        margin-left: 90px;
+        width:auto;
+    }
+    .do_best {
+        display: none;
+    }
+}
 
   .test-cards-block {
     display: flex;
@@ -811,7 +899,8 @@ h1 {
     @media screen and (max-width:500px) {
 
     .article-about-us { 
-        flex-direction: column;
+        display: flex;
+        flex-wrap: wrap;
     } 
 
     .parent {
